@@ -5,5 +5,5 @@ def square_array(array)
     arrays << number**2
   end
     
-
+return arrays
 end
