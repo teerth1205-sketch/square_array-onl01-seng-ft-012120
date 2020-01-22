@@ -6,3 +6,11 @@ def square_array(array)
     
 return arrays
 end
+
+def square_array(array)
+  arrays = []
+  array.collect {|number|  number**2}
+
+    
+return arrays
+end
