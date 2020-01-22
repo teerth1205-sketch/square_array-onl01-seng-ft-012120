@@ -1,4 +1,3 @@
-arrays = []
 
 def square_array(array)
   arrays = []
