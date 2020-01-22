@@ -1,12 +1,12 @@
 
 def square_array(array)
-
-  array.collect do |number| 
-   number**2
+  arrays = []
+  array.each do |number| 
+    arrays << number**2
   end
 
     
-
+return arrays
 end
 
 
