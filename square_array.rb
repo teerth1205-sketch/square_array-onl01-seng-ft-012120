@@ -1,8 +1,7 @@
 
 def square_array(array)
   arrays = []
-  array.each |number| do 
-    arrays << number**2
+  array.each {|number| arrays << number**2
 
     
 return arrays
